@@ -25,7 +25,32 @@
   <video src="https://github.com/user-attachments/assets/f6da9d67-7d8d-4a7f-b1b9-60c3bffefa3c">
 </div>
 
-## TEST - MOD-100 Counter (0 to 99) with a selfmade Darkness Sensor (external signal)
-### The Darkness Sensor
+## TEST - MOD-100 Counter (0 to 99) with a selfmade Light Sensor (external signal)
+### The Light Sensor
+<p>For this project, I employed a photoresistor sensor that has sensitivity to all wavelengths of visible light, even infrared and ultraviolet wavelengths. A photoresistor (also known as a light-dependent resistor, LDR) is a passive component that decreases its resistance as the luminosity (light) on it increases.<br>
+</p>
+
+<div>
+    Components Required:<br>
+      <ul>
+        <li>1 x LDR (Light Dependent Resistor)</li>
+        <li>1 x NPN-Transistor (BC547)</li>
+        <li>2 x Resistors (470Ohm and 1K)</li>
+        <li>Power Supply 3-12V (I used the Power Supply from the Analog Discovery 2)</li>
+        <li>Few breadboard connectors</li>
+      </ul>
+</div>
+
+<div align="center">
+    <img src="https://github.com/user-attachments/assets/2ab5a190-199e-4e00-b30c-5c4a55ea187a" width="450"><sub>(2)</sub>
+</div>
+
+<p></p>
+
+
+
+
+
+
 
 
