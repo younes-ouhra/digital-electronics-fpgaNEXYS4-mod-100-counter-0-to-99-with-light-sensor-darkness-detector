@@ -66,5 +66,14 @@ The transistor stays off, similar to an oppened switch, the emitter and collecto
 </div>
 
 
+<div align="center">
+  <video src="https://github.com/user-attachments/assets/29411f17-6a78-46ac-b9f8-d62c772aee99">
+</div>
+
+
+
+
+
+
 
 
