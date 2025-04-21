@@ -42,14 +42,28 @@
 </div>
 
 <div align="center">
-    <img src="https://github.com/user-attachments/assets/2ab5a190-199e-4e00-b30c-5c4a55ea187a" width="450"><sub>(2)</sub>
+    <img src="https://github.com/user-attachments/assets/2ab5a190-199e-4e00-b30c-5c4a55ea187a" width="450">
 </div>
 
-<p></p>
+#### How light sensor circuit works?
+<p><b>R1 = 470Ohm and R2 = 1000Ohm</b></p>
+<p>The BC547 is an NPN-Transistor, meaning it conducts current from the collector to the emitter when the base-emitter junction is forward-biased, that is when the base voltage is about 0,7V higher than the emitter voltage.<br>
+
+When the bright light hits the LDR, its resistance drops a lot. This causes more current to flow from the power supply through the LDR and the resistance R2. Increasing the current through the resistance R2 results in an increase in voltage on both the resistance and the base of the transistor.
+The transistor is activated by this high voltage, similar to a closed switch, the emitter and collector are connected and the current flows from the power supply through the resistance R1 and the LED.<br>
+
+When it's dark, there is an increase in the resistance of the LDR. This results in a lack of current flow from the power supply through the LDR and the resistance R2. 
+By decreasing the current through the resistance R2, the transistor's voltage decreases on both the resistance and the base of the transistor.
+The transistor stays off, similar to an oppened switch, the emitter and collector are not anymore connected and the current does not flow from the power supply through the resistance R1 and the LED. That is why the LED doee not light up in the dark.<br>
+</p>
+
+<p>In the following video, you can see the result of the final project and a recorded simulation of the counter.</p>
 
 
 
-
+<div align="center">
+  <video src="https://github.com/user-attachments/assets/78a5d67f-4590-496c-acf8-32ba1b454083">
+</div>
 
 
 
