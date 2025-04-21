@@ -1,4 +1,4 @@
-# Digital Electronics - FPGA NEXYS4 MOD-100 Counter (0 to 99) with Light Sensor / Darkness detector
+# Digital Electronics - FPGA NEXYS4 MOD-100 Counter (0 to 99) with Light Sensor
 ## About
 <p>This project was built along with the Laboratory Digital Electronics at the Technical University of Applied Sciences of Regensburg (OTH Regensburg), Bavaria, Germany. It is about programming the FPGA-Board as a MOD-100 counter und controlling the tempo of its counter by using an extern signal.<br>This signal is the output of a darkness sensor.</p>
 
